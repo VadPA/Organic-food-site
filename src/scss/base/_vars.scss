@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Rosario:wght@700&display=swap');
+// font-family: 'DM Sans', sans-serif;
+// font-family: 'Rosario', sans-serif;
+
 :root {
-	--container-width: 1200px;
+	/* --------- size main ---------------*/
+	--container-width: 1240px;
 	--container-padding: 15px;
 
-	--font-main: 'Poppins', sans-serif;
-	--font-accent: 'Playfair Display', serif;
+	/* --------- fonts ---------------*/
+	--font-main: 'DM Sans', sans-serif;
+	--font-accent: 'Rosario', sans-serif;
+
+	/* --------- colors ---------------*/
+	--color-primary: #222222;
+	--color-secondary: #555555;
+	--color-black: #000000;
+	--color-white: #fff;
+	--bg-mint-cream: #F3FBF8;
 
 	--page-bg: #fff;
 	--text-color: #000;
 	--accent: #ac182c;
 
-    --laptop-size: 1199px;
+	/* --------- media-query ---------------*/
+  --laptop-size: 1199px;
 	--tablet-size: 959px;
 	--mobile-size: 599px;
 }
