@@ -1,0 +1,109 @@
+.hero {
+  background-color: var(--bg-mint-cream);
+}
+
+.hero-inner-wrapper {
+  padding-top: 92px;
+  padding-bottom: 33px;
+  background-image: url(./../../img/fresh-melientha-suavis-pierre-leaves-white-surface.png);
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  width: 640px;
+  margin: 0 auto 60px;
+  color: var(--color-secondary);
+  text-align: center;
+  font-family: var(--font-main);
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+// .hero-link {
+//   display: block;
+//   text-align: center;
+//   padding-left: 140px;
+//   font-weight: 500;
+// }
+
+// .hero-link::after {
+//   position: absolute;
+//   content: '';
+//   background-color: var(--bg-green-lt);
+//   width: 64px;
+//   height: 64px;
+//   top: -20px;
+//   margin-left: 20px;
+//   border-radius: 50%;
+// }
+
+.hero-img {
+  position: relative;
+  width: 863px;
+}
+
+.hero-link {
+  position: absolute;
+  top: -18px;
+  right: 10%;
+  display: flex;
+  align-items: center;
+  width: 176px;
+  height: 64px;
+  font-weight: 500;
+}
+
+.hero-link::after {
+  position: absolute;
+  content: '';
+  background: var(--bg-green-lt) url('./../../img/icons/arrow-right.svg') no-repeat center;
+  width: 64px;
+  height: 64px;
+  top: 0px;
+  margin-left: 120px;
+  border-radius: 50%;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 250px;
+  height: 116px;
+  background-color: var(--color-white)
+}
+
+.describe-count {
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 100% */
+}
+
+.hero-item img {
+  background-color: var(--bg-mint-cream);
+  border-radius: 50%;
+}
+
+.hero-describe p {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
