@@ -1,5 +1,6 @@
 .hero {
   background-color: var(--bg-mint-cream);
+  margin-bottom: 140px;
 }
 
 .hero-inner-wrapper {
@@ -11,21 +12,27 @@
 
 .hero-title {
   text-align: center;
-  margin-bottom: 20px;
 }
 
-.hero-text {
+.section-text--hero {
   width: 640px;
   margin: 0 auto 60px;
-  color: var(--color-secondary);
   text-align: center;
-  font-family: var(--font-main);
 }
 
 .hero-wrapper {
   display: flex;
   align-items: center;
   gap: 110px;
+}
+
+.hero-icon img{
+  border-radius: 50%;
+}
+
+.list-item__hero {
+  width: 250px;
+  height: 116px;
 }
 
 // .hero-link {
@@ -73,37 +80,17 @@
   border-radius: 50%;
 }
 
-.hero-list {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.hero-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  width: 250px;
-  height: 116px;
-  background-color: var(--color-white)
-}
 
 .describe-count {
-  text-align: center;
+  // text-align: center;
   font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
+  // font-style: normal;
+  // font-weight: 400;
   line-height: 48px; /* 100% */
 }
 
-.hero-item img {
-  background-color: var(--bg-mint-cream);
-  border-radius: 50%;
-}
-
-.hero-describe p {
-  text-align: center;
-  margin-bottom: 4px;
-}
+// .hero-describe p {
+//   text-align: center;
+//   margin-bottom: 4px;
+// }
 
