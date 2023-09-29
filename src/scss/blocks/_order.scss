@@ -1,0 +1,36 @@
+.order {
+  margin-bottom: 157px;
+}
+
+.order-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 112px;
+}
+
+.order-grid__images {
+  min-width: 270px;
+  height: 500px;
+}
+
+.download {
+  font-size: 25px;
+  width: 240px;
+  text-align: center;
+  padding: 15px;
+  background-color: var(--bg-mint-cream);
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.section-text--order {
+  width: 574px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.store {
+  display: flex;
+  gap: 30px;
+}

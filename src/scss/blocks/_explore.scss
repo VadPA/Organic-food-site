@@ -1,0 +1,109 @@
+.explore {
+  background-color: var(--bg-mint-cream);
+  margin-bottom: 96px;
+}
+
+.explore-inner-wrapper {
+  padding-top: 89px;
+  padding-bottom: 143px;
+  background-image: url(./../../img/fresh-melientha-suavis-pierre-leaves-white-surface.png);
+  background-repeat: no-repeat;
+  background-position: 110% bottom;
+}
+
+.explore-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.explore-grid__images {
+  background-color: rgba(9, 166, 109, 0.10);
+  min-width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.explore-grid__images--rotate {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  height: 600px;
+  transform: rotate(30deg);
+  // padding-top: 50px;
+}
+
+.image {
+  flex-shrink: 0;
+  background-color: var(--page-bg);
+  box-shadow: 15px 15px 40px rgba(144, 208, 88, 0.40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-cucumber {
+  width: 250px;
+  height: 250px;
+}
+
+.img-apple {
+  width: 208px;
+  height: 208px;
+  margin-left: auto;
+}
+
+.img-orange {
+  width: 200px;
+  height: 200px;
+}
+
+.img-salad {
+  width: 270px;
+  height: 270px;
+}
+
+.img-orange,
+.img-salad {
+  transform: translateY(-70px);
+}
+
+.img-cucumber,
+.img-apple {
+  transform: translateY(70px);
+}
+
+.section-text--explore {
+  width: 574px;
+  // margin: 30px auto 60px;
+  text-align: left;
+}
+
+.explore-describe {
+  position: relative;
+}
+
+.explore-link {
+  position: absolute;
+  bottom: 210px;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  width: 176px;
+  height: 64px;
+  font-weight: 500;
+}
+
+.explore-link::after {
+  position: absolute;
+  content: '';
+  background: var(--bg-green-lt) url('./../../img/icons/arrow-right.svg') no-repeat center;
+  width: 64px;
+  height: 64px;
+  top: 0px;
+  margin-left: 120px;
+  border-radius: 50%;
+}
