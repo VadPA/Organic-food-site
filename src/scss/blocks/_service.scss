@@ -58,7 +58,7 @@
 .service-grid__describe::after {
   position: absolute;
   content: "";
-  background: url('./../../img/icons/arrow-down.svg') no-repeat;
+  background: url('../img/icons/arrow-down.svg') no-repeat;
   width: 15px;
   height: 54px;
   bottom: -60px;
@@ -84,7 +84,7 @@
 .service-grid__image::before {
   position: absolute;
   content: '';
-  background: url('./../../img/elips-fruit.png');
+  background: url('../img/elips-fruit.png');
   width: 400px;
   height: 400px;
   top: 60px;
@@ -96,7 +96,7 @@
 .service-grid__image::after {
   position: absolute;
   content: '';
-  background: url('./../../img/Ellipse-bg.png');
+  background: url('../img/Ellipse-bg.png');
   width: 366px;
   height: 568px;
   top: -30px;

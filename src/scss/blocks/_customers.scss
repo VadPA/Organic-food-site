@@ -57,7 +57,7 @@
 .customers-link::before {
   position: absolute;
   content: '';
-  background: url('./../../img/icons/vector-left.svg') no-repeat center;
+  background: url('../img/icons/vector-left.svg') no-repeat center;
   width: 56px;
   height: 56px;
   margin-left: 320px;
@@ -68,7 +68,7 @@
 .customers-link::after {
   position: absolute;
   content: '';
-  background: var(--bg-green-lt) url('./../../img/icons/vector-right.svg') no-repeat center;
+  background: var(--bg-green-lt) url('../img/icons/vector-right.svg') no-repeat center;
   width: 56px;
   height: 56px;
   margin-left: 400px;

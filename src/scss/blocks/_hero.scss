@@ -6,7 +6,7 @@
 .hero-inner-wrapper {
   padding-top: 92px;
   padding-bottom: 33px;
-  background-image: url(./../../img/fresh-melientha-suavis-pierre-leaves-white-surface.png);
+  background-image: url(../img/fresh-melientha-suavis-pierre-leaves-white-surface.png);
   background-repeat: no-repeat;
 }
 
@@ -36,24 +36,6 @@
   height: 116px;
 }
 
-// .hero-link {
-//   display: block;
-//   text-align: center;
-//   padding-left: 140px;
-//   font-weight: 500;
-// }
-
-// .hero-link::after {
-//   position: absolute;
-//   content: '';
-//   background-color: var(--bg-green-lt);
-//   width: 64px;
-//   height: 64px;
-//   top: -20px;
-//   margin-left: 20px;
-//   border-radius: 50%;
-// }
-
 .hero-img {
   position: relative;
   width: 863px;
@@ -73,7 +55,7 @@
 .hero-link::after {
   position: absolute;
   content: '';
-  background: var(--bg-green-lt) url('./../../img/icons/arrow-right.svg') no-repeat center;
+  background: var(--bg-green-lt) url('../img/icons/arrow-right.svg') no-repeat center;
   width: 64px;
   height: 64px;
   top: 0px;
@@ -81,17 +63,7 @@
   border-radius: 50%;
 }
 
-
 .describe-count {
-  // text-align: center;
   font-size: 48px;
-  // font-style: normal;
-  // font-weight: 400;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
 }
-
-// .hero-describe p {
-//   text-align: center;
-//   margin-bottom: 4px;
-// }
-

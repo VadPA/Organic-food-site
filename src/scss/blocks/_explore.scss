@@ -6,7 +6,7 @@
 .explore-inner-wrapper {
   padding-top: 89px;
   padding-bottom: 143px;
-  background-image: url(./../../img/fresh-melientha-suavis-pierre-leaves-white-surface.png);
+  background-image: url(../img/fresh-melientha-suavis-pierre-leaves-white-surface.png);
   background-repeat: no-repeat;
   background-position: 110% bottom;
 }
@@ -100,7 +100,7 @@
 .explore-link::after {
   position: absolute;
   content: '';
-  background: var(--bg-green-lt) url('./../../img/icons/arrow-right.svg') no-repeat center;
+  background: var(--bg-green-lt) url('../img/icons/arrow-right.svg') no-repeat center;
   width: 64px;
   height: 64px;
   top: 0px;
